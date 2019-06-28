@@ -79,11 +79,7 @@
 
             li{
                 margin-bottom: 1em;
-                margin-left: 1em;
-
-                //&:last-child a{
-                //    color: $color-white;
-                //}
+                margin-left: 1em;                
 
                 @include rwd(800){
                     margin-left: 2em;
@@ -130,8 +126,6 @@
                             transition: transform ease-in-out 250ms;
                         }
                     }
-
-
                 }
             }
         }
