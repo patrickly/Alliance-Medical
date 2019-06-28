@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-top: 5px solid $color-primary-light;
+    border-top: 5px solid $color-primary-light;    
 
     &-mission{
         padding: 60px 0 10px 0;
@@ -21,11 +21,13 @@
 
         h2{
             margin: 10px 0;
+            text-align: center;
         }
 
         p{
             text-transform: uppercase;
-            color: $color-primary-light;            
+            color: $color-primary-light; 
+            text-align: center;           
         }
     }
 
