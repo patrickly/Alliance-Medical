@@ -1,0 +1,13 @@
+.btn{
+    padding: 1rem;
+    background: $color-btn;
+    color: $color-white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.btn-reverse{
+    background: $color-white;
+    color: $color-btn;
+    font-size: 0.8rem;
+}

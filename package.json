@@ -1,0 +1,28 @@
+{
+  "name": "khdevtt-dev-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "gulp",
+    "proxy": "gulp watch-proxy",
+    "imgs": "gulp imagemin",
+    "bootstrap": "gulp bootstrap"
+  },
+  "keywords": [],
+  "author": "KHDevTT",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "bootstrap": "^4.3.1",
+    "browser-sync": "^2.26.7",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-sass": "^4.0.2",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "popper.js": "^1.15.0"
+  }
+}
