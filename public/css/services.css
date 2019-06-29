@@ -17,6 +17,8 @@
  font-size: 36px;
  text-align: center;
  letter-spacing: 2px;
+ font-weight: 800;
+ text-transform: uppercase;
 }
 
 #services .container .line {
@@ -38,11 +40,73 @@
 }
 
 #services .container .service-boxes .service-box {
+ position: relative;
  width: 30.33%;
  margin: 1.5%;
  height: 450px;
  display: inline-block;
  float: left;
  padding: 20px;
+ box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.22);
+ transition: all .4s ease-in-out;
  border: 5px solid #f6f7f5;
+ background-color: #FCFCFC;
+ /* background: url('http://onemddirect.com/wp-content/uploads/2017/09/medical-care-1362384856_50.jpg'); */
+}
+
+#services .container .service-boxes .service-box:hover {
+ border: 5px solid #2E97F2;
+}
+
+#services .container .service-boxes .service-box .logo {
+ width: 80px;
+ height: 80px;
+ position: relative;
+}
+
+#services .container .service-boxes .service-box .logo .fas {
+ font-size: 3.2rem;
+ /* display: flex; */
+ /* justify-content: center; */
+ /* align-self: center; */
+ position: absolute;
+ top: 8px;
+ left: 19px;
+ padding-bottom: 34px;
+ color: #1649F2;
+ opacity: .6;
+}
+
+#services .container .service-boxes .service-box h3 {
+ font-size: 1.2rem;
+ letter-spacing: 2px;
+ font-weight: 600;
+ padding-bottom: 26px;
+}
+
+#services .container .service-boxes .service-box p {
+ padding-bottom: 15px;
+ line-height: 1.2;
+ letter-spacing: 1px;
+}
+
+#services .container .service-boxes .service-box ul li {
+ padding: 6px 0;
+}
+
+#services .container .service-boxes .service-box .btn-container {
+}
+
+#services .container .service-boxes .service-box .btn-container .learn-btn {
+ color: #53D94E;
+ position: absolute;
+ bottom: 20px;
+ transition: all .3s ease-in-out;
+}
+
+#services .container .service-boxes .service-box .btn-container .learn-btn:hover {
+ background: #53D94E;
+ text-decoration: none;
+ color: #fff;
+ padding: 16px 28px;
 }
