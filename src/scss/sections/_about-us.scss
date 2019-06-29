@@ -1,6 +1,3 @@
-*{
-  box-sizing: border-box;
-}
 .container{
   background: #ffffff;
   margin: 0 auto;
@@ -26,6 +23,7 @@
       }
       li{
         padding-left: 12px;
+        margin-bottom: 5px;
       }
     }
   }
@@ -38,6 +36,11 @@
     }
     p{
       margin-bottom: 10px;
+    }
+    .specialties{
+      ul{
+        list-style: disc;
+      }
     }
   }
 }
