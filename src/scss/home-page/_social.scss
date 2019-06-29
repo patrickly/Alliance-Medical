@@ -21,6 +21,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            transition: box-shadow 0.25s ease-in-out;
+
+            &:hover{
+                box-shadow: $icon-shadow;
+            }
 
             @include rwd(700){
                 width: 60px;
