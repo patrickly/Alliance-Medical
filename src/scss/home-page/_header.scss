@@ -12,12 +12,16 @@
         grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
     }
 
-    .logo{
+    .logo-container{
+        color: $color-dark;
+        .logo{
 
-        @include rwd(800){
-            grid-column: 2 / span 1;
+            @include rwd(800){
+                grid-column: 2 / span 1;
+            }
         }
     }
+
 
     .nav-toggle{
         display: none;
@@ -42,6 +46,11 @@
         align-items: center;
         color: $color-primary;
         font-size: 2rem;
+
+        &:hover,
+        &:focus{
+            cursor: pointer;
+        }
 
         @include rwd(800){
             display: none;
@@ -118,7 +127,6 @@
                             background: $color-links;
                             position: absolute;
                             bottom: -0.75em;
-                            //top: -0.75em;
                             left: 0;
                             right: 0;
                             transform: scale(0, 1);
