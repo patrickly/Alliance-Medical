@@ -1,9 +1,10 @@
 # Alliance Medical Business Page
 
-**Clone or download this repository** 
 
 ## First Time Setup
-** You must have both gulp and node installed **
+**Clone or download this repository** 
+
+**You must have both gulp and node installed**
 ```bash
     gulp -v 
 ```
