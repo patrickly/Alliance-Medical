@@ -1,0 +1,48 @@
+* {
+ box-sizing: border-box;
+}
+
+#services {
+
+}
+
+#services .container {
+ max-width: 1400px;
+ margin: 0 auto;
+ padding: 180px 20px;
+ /* margin: 22px 40px; */
+}
+
+#services .container h2 {
+ font-size: 36px;
+ text-align: center;
+ letter-spacing: 2px;
+}
+
+#services .container .line {
+ /* display: inline-block; */
+ height: 3px;
+ width: 53px;
+ background-color: #2E97F2;
+ margin: 0 auto;
+ margin-top: 20px;
+}
+
+#services .container .service-boxes {
+ padding: 42px 0;
+}
+#services .container .service-boxes:after {
+ content: "";
+ clear: both;
+ display: table;
+}
+
+#services .container .service-boxes .service-box {
+ width: 30.33%;
+ margin: 1.5%;
+ height: 450px;
+ display: inline-block;
+ float: left;
+ padding: 20px;
+ border: 5px solid #f6f7f5;
+}
