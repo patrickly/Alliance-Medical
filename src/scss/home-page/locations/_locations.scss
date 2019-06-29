@@ -1,0 +1,63 @@
+#locations {
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    position: relative;
+    padding-top: 115px;
+    background: #2E97F2;
+
+
+    .container {
+        width: 100%;
+        display: flex;
+        margin-top: 50px;
+        text-align: center;
+
+
+        .info-container {
+
+            // display: flex;
+            // justify-content: center;
+            margin-left: 170px;
+
+
+
+            h2 {
+                font-size: 3rem;
+
+            }
+
+            h3 {
+                font-size: 2rem;
+            }
+
+            .contact-info {
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+
+
+
+        }
+
+        .map_container {
+            height: 200px;
+            text-align: center;
+
+            iframe {
+                border: 2px solid white;
+                border-radius: 4px;
+                width: 500px;
+                height: 200px;
+                margin-left: 150px;
+            }
+
+            // display: flex;
+            // justify-content: center
+        }
+    }
+
+    .suite-info {
+        display: block;
+    }
+}
