@@ -1,0 +1,39 @@
+.hero{
+    height: 700px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url("../../img/hero.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: $color-white;
+
+    i{
+        font-size: 3rem;
+        margin-top: 60px;
+
+        @include rwd(800){
+            font-size: 4rem;
+        }
+    }
+
+    h1{
+        margin: 20px 0;
+        font-size: 1.8rem;
+        text-align: center;
+
+        @include rwd(800){
+            font-size: 2.8rem;
+        }
+    }
+
+    p{
+        font-size: 1.3rem;
+        padding-bottom: 60px;
+
+        @include rwd(800){
+            font-size: 2rem;
+        }
+    }
+}
