@@ -1,10 +1,19 @@
-Alliance Medical Business Page
+# Alliance Medical Business Page
 
-Instructions: 
+**Clone or download this repository** 
 
-Clone Repo
-node -v
-gulp -v
+## First Time Setup
+** You must have both gulp and node installed **
+```bash
+    gulp -v 
+```
+```bash
+    node -v 
+```
+```bash
+    npm install
+```
+```bash
+    npm run watch
+```
 
-npm install
-npm run watch
