@@ -1,0 +1,79 @@
+.services{
+    padding: 60px 0 150px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    .services-container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+
+        @include rwd(700){
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include rwd(1000){
+            grid-template-columns: repeat(3, 1fr);
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .service{
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 20px;
+
+            &-icon{
+                padding: 0 10px;
+                margin-top: 8px;
+                font-size: 1.7rem;
+                color: $color-primary;
+            }
+
+            &-info{
+                padding: 5px;
+                line-height: 1.5;
+                
+                .service-title{
+                    text-transform: capitalize;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
+
+                .service-desc{
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    .services-cta{
+        padding: 20px 20px 0 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        @include rwd(1000){
+            grid-template-columns: 1fr;
+            width: 100%;
+            max-width: 1300px;
+            margin-left: 40px;
+        }
+
+        .cta-desc{
+            margin-bottom: 50px;
+            font-size: 1.5rem;
+            text-transform: capitalize;
+
+            @include rwd(800){
+                font-size: 3rem;
+            }
+        }
+    }
+}
