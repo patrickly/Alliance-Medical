@@ -4,10 +4,22 @@
     color: $color-white;
     font-weight: bold;
     border-radius: 8px;
+    transition: 0.3s background-color ease-in-out;
+
+    &:hover{
+        background: darken($color-btn, 10%);
+        color: $color-white;
+    }
 }
 
 .btn-reverse{
     background: $color-white;
     color: $color-btn;
     font-size: 0.8rem;
+    transition: 0.3s background-color ease-in-out;
+
+    &:hover{
+        background: $color-btn;
+        color: $color-white;
+    }
 }

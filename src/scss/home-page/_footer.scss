@@ -1,17 +1,16 @@
 .footer{
     width: 100%;
-    padding: 80px 0 0 0;
     background: $color-primary;
     color: $color-white;
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-top: 5px solid $color-primary-light;    
+    border-top: 5px solid $color-primary-light;
 
     &-mission{
         padding: 60px 0 10px 0;
         display: flex;
-        align-items: center;        
+        align-items: center;
         flex-direction: column;
 
         i{
@@ -21,35 +20,31 @@
 
         h2{
             margin: 10px 0;
-            text-align: center;
         }
 
         p{
             text-transform: uppercase;
-            color: $color-primary-light; 
-            text-align: center;           
+            color: $color-primary-light;
         }
     }
 
     &-contact{
         padding: 10px 0;
 
-        @include rwd(800){                
-                display: flex; 
-                flex-direction: row;
-            } 
+        @include rwd(800){
+            display: flex;
+            flex-direction: row;
+        }
 
         &-container{
             display: flex;
             justify-content: flex-start;
             align-items: center;
-            padding: 10px;  
+            padding: 10px;
 
-            @include rwd(800){ 
+            @include rwd(800){
                 margin: 0 10px;
             }
-
-                     
 
             .icon{
                 display: flex;
@@ -57,20 +52,20 @@
                 align-items: center;
                 padding: 10px;
                 width: 35px;
-                height: 35px;                
-                border-radius: 50%;                
-                background: $color-white; 
+                height: 35px;
+                background: $color-white;
+                border-radius: 50%;
 
                 i{
-                color: $color-primary;                
-                padding: 10px;
-                }               
-            }   
+                    color: $color-primary;
+                    padding: 10px;
+                }
+            }
 
             .info{
                 padding: 10px;
                 text-transform: capitalize;
-            }         
+            }
         }
     }
 
