@@ -10,6 +10,13 @@
     flex-direction: column;
     color: $color-white;
 
+    ::placeholder, select{
+        color: $color-light;
+        font-family: $font-body;
+        font-size: 1rem;
+        letter-spacing: 1.3px;
+    }
+
     .icon {
         i{
             font-size: 3rem;
@@ -69,13 +76,23 @@
             outline: none;
             border: none;
             border-radius: 7px;
+            font-family: $font-body;
+            font-size: 1rem;
+            letter-spacing: 1.3px;
+            color: $color-dark;
 
             &:focus{
-                outline: 2px solid $color-primary;
+                outline: 2px solid transparent;
             }
         }
 
+        select.inputs{
+            color: $color-light-select;
+        }
+
         textarea.inputs{
+            font-size: 1rem;
+
             @include rwd(800){
                 grid-column: 1 / 3;
                 width: 100%;
