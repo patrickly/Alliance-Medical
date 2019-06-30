@@ -1,5 +1,6 @@
 #locations {
     width: 100%;
+
     z-index: -1;
     display: flex;
     position: relative;
@@ -20,8 +21,6 @@
             // justify-content: center;
             margin-left: 170px;
 
-
-
             h2 {
                 font-size: 3rem;
 
@@ -36,20 +35,17 @@
                 font-weight: 600;
             }
 
-
-
         }
 
         .map_container {
             height: 200px;
-            text-align: center;
 
             iframe {
                 border: 2px solid white;
                 border-radius: 4px;
-                width: 500px;
-                height: 200px;
-                margin-left: 150px;
+                width: 634px;
+                height: 224px;
+                margin-left: 139px;
             }
 
             // display: flex;
@@ -57,7 +53,187 @@
         }
     }
 
+}
+
+#location-list {
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    position: relative;
+    padding-top: 115px;
+    background: #2E97F2;
+
     .suite-info {
-        display: block;
+        width: 100%;
+    }
+
+    .info-list {
+        width: 100%;
+        position: relative;
+
+        .header-li {
+            border: 2px solid white;
+            margin-left: 200px;
+            margin-right: 240px;
+            border-radius: 5px;
+            padding-top: 10px;
+
+            margin-bottom: 20px;
+
+            span {
+                float: right;
+                position: relative;
+                top: -29px;
+                padding-right: 5px;
+                padding-top: 3px;
+            }
+
+            .info-1 {
+                border: 2px solid white;
+
+                li {
+                    margin-bottom: 5px;
+                }
+
+                h4 {
+                    margin-bottom: 10px;
+                    margin-top: 20px;
+                }
+            }
+
+            .info-2 {
+                border: 2px solid white;
+
+                li {
+                    margin-bottom: 5px;
+                }
+
+                h4 {
+                    margin-bottom: 10px;
+                    margin-top: 20px;
+                }
+            }
+
+            .info-3 {
+                border: 2px solid white;
+
+                li {
+                    margin-bottom: 5px;
+                }
+
+                h4 {
+                    margin-bottom: 10px;
+                    margin-top: 20px;
+                }
+            }
+
+            .info-4 {
+                border: 2px solid white;
+
+                li {
+                    margin-bottom: 5px;
+                }
+
+                h4 {
+                    margin-bottom: 10px;
+                    margin-top: 20px;
+                }
+            }
+
+            .info-5 {
+                border: 2px solid white;
+
+                li {
+                    margin-bottom: 5px;
+                }
+
+                h4 {
+                    margin-bottom: 10px;
+                    margin-top: 20px;
+                }
+            }
+
+            .info-6 {
+                border: 2px solid white;
+
+                li {
+                    margin-bottom: 5px;
+                }
+
+                h4 {
+                    margin-bottom: 10px;
+                    margin-top: 20px;
+                }
+            }
+
+            .info-7 {
+                border: 2px solid white;
+
+                li {
+                    margin-bottom: 5px;
+                }
+
+                h4 {
+                    margin-bottom: 10px;
+                    margin-top: 20px;
+                }
+            }
+
+            .info-8 {
+                border: 2px solid white;
+
+                li {
+                    margin-bottom: 5px;
+                }
+
+                h4 {
+                    margin-bottom: 10px;
+                    margin-top: 20px;
+                }
+            }
+
+            .info-9 {
+                border: 2px solid white;
+
+                li {
+                    margin-bottom: 5px;
+                }
+
+                h4 {
+                    margin-bottom: 10px;
+                    margin-top: 20px;
+                }
+            }
+
+            .info-10 {
+                border: 2px solid white;
+
+                li {
+                    margin-bottom: 5px;
+                }
+
+                h4 {
+                    margin-bottom: 10px;
+                    margin-top: 20px;
+                }
+            }
+
+            .info-11 {
+                border: 2px solid white;
+
+                li {
+                    margin-bottom: 5px;
+                }
+
+                h4 {
+                    margin-bottom: 10px;
+                    margin-top: 20px;
+                }
+            }
+
+        }
+
+
+
     }
 }
