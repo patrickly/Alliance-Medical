@@ -3,6 +3,11 @@
 @import "base/base";
 @import "base/shared";
 @import "mixins/mixins";
-@import "sections/header";
-@import "sections/footer";
+@import "home-page/header";
+@import "home-page/hero";
+@import "home-page/mission";
+@import "home-page/services";
+@import "home-page/contact";
+@import "home-page/footer";
 @import "sections/about-us";
+
