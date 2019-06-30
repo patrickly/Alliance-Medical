@@ -1,11 +1,11 @@
 #locations {
     width: 100%;
-
     z-index: -1;
     display: flex;
     position: relative;
     padding-top: 115px;
-    background: #2E97F2;
+    background: #2e97f2;
+
 
 
     .container {
@@ -13,17 +13,18 @@
         display: flex;
         margin-top: 50px;
         text-align: center;
+        border-bottom: 3px solid white;
+        padding-bottom: 20px;
 
 
         .info-container {
-
             // display: flex;
             // justify-content: center;
+
             margin-left: 170px;
 
             h2 {
                 font-size: 3rem;
-
             }
 
             h3 {
@@ -34,7 +35,6 @@
                 font-size: 1.1rem;
                 font-weight: 600;
             }
-
         }
 
         .map_container {
@@ -46,13 +46,13 @@
                 width: 634px;
                 height: 224px;
                 margin-left: 139px;
+                pointer-events: auto;
             }
 
             // display: flex;
             // justify-content: center
         }
     }
-
 }
 
 #location-list {
@@ -61,7 +61,7 @@
     display: flex;
     position: relative;
     padding-top: 115px;
-    background: #2E97F2;
+    background: #2e97f2;
 
     .suite-info {
         width: 100%;
@@ -97,11 +97,8 @@
                 h4 {
                     margin-bottom: 10px;
                     margin-top: 20px;
-
                 }
             }
-
-
 
             .info-2 {
                 border: 2px solid white;
@@ -237,10 +234,62 @@
                     margin-top: 20px;
                 }
             }
+        }
+    }
+}
 
+#more-locations {
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    position: relative;
+    padding-top: 70px;
+    background: #2e97f2;
+
+
+
+
+    .container {
+        border-bottom: 3px solid white;
+        width: 100%;
+        display: flex;
+        margin-top: 10px;
+        text-align: center;
+        padding-bottom: 20px;
+
+        .info-container {
+            // display: flex;
+            // justify-content: center;
+            margin-left: 170px;
+
+            h2 {
+                font-size: 3rem;
+            }
+
+            h3 {
+                font-size: 2rem;
+            }
+
+            .contact-info {
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
         }
 
+        .map_container {
 
 
+            iframe {
+                border: 2px solid white;
+                border-radius: 4px;
+                width: 634px;
+                height: 300px;
+                margin-left: 119px;
+                pointer-events: auto;
+            }
+
+            // display: flex;
+            // justify-content: center
+        }
     }
 }
