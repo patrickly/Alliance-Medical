@@ -5,8 +5,7 @@
     position: relative;
     padding-top: 115px;
     background: #2e97f2;
-
-
+    margin: 0 auto;
 
     .container {
         width: 100%;
@@ -15,7 +14,6 @@
         text-align: center;
         border-bottom: 3px solid white;
         padding-bottom: 20px;
-
 
         .info-container {
             // display: flex;
@@ -238,58 +236,51 @@
     }
 }
 
-#more-locations {
-    width: 100%;
-    z-index: -1;
-    display: flex;
-    position: relative;
-    padding-top: 70px;
+#more-location {
     background: #2e97f2;
+    color: white;
+    font-weight: 900;
+    text-shadow: 1px 1px #53D94E;
 
 
 
 
-    .container {
-        border-bottom: 3px solid white;
-        width: 100%;
-        display: flex;
-        margin-top: 10px;
-        text-align: center;
-        padding-bottom: 20px;
+    .container-l {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
-        .info-container {
-            // display: flex;
-            // justify-content: center;
-            margin-left: 170px;
+    .info {
+        border-bottom: 4px solid white;
+        height: 550px;
+        margin-top: 30px;
+        -webkit-box-shadow: 0px 8px 8px 1px rgba(83, 217, 78, 0.71);
+        -moz-box-shadow: 0px 8px 8px 1px rgba(83, 217, 78, 0.71);
+        box-shadow: 0px 8px 8px 1px rgba(83, 217, 78, 0.71);
 
-            h2 {
-                font-size: 3rem;
-            }
+        .office-info {
+            //   float: left;
+            //   position: relative;
+            margin-top: 50px;
+            margin-left: 50px;
 
             h3 {
                 font-size: 2rem;
+
             }
 
-            .contact-info {
-                font-size: 1.1rem;
-                font-weight: 600;
+            li {
+                font-size: 1.5rem;
             }
         }
 
-        .map_container {
-
-
-            iframe {
-                border: 2px solid white;
-                border-radius: 4px;
-                width: 634px;
-                height: 300px;
-                margin-left: 119px;
-                pointer-events: auto;
-            }
-
-            // display: flex;
-            // justify-content: center
+        iframe {
+            position: relative;
+            float: right;
+            top: -400px;
+            width: 800px;
+            height: 400px;
+            right: 73px;
         }
     }
 }
