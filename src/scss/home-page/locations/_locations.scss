@@ -77,7 +77,6 @@
             margin-right: 240px;
             border-radius: 5px;
             padding-top: 10px;
-
             margin-bottom: 20px;
 
             span {
@@ -98,11 +97,19 @@
                 h4 {
                     margin-bottom: 10px;
                     margin-top: 20px;
+
                 }
             }
 
+
+
             .info-2 {
                 border: 2px solid white;
+
+                &:hover {
+                    background: red;
+                    display: none;
+                }
 
                 li {
                     margin-bottom: 5px;
