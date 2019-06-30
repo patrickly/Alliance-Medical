@@ -9,7 +9,7 @@
 #services .container {
  max-width: 1400px;
  margin: 0 auto;
- padding: 180px 20px;
+ padding: 190px 20px 100px;
  /* margin: 22px 40px; */
 }
 
@@ -43,7 +43,7 @@
  position: relative;
  width: 30.33%;
  margin: 1.5%;
- height: 450px;
+ height: 480px;
  display: inline-block;
  float: left;
  padding: 20px;
@@ -86,12 +86,19 @@
 
 #services .container .service-boxes .service-box p {
  padding-bottom: 15px;
- line-height: 1.2;
+ line-height: 1.4;
  letter-spacing: 1px;
+ /* text-transform: capitalize; */
 }
 
 #services .container .service-boxes .service-box ul li {
  padding: 6px 0;
+}
+
+#services .container .service-boxes .service-box ul li span.service-info {
+ margin-left: 10px;
+ line-height: 1.6;
+ text-transform: capitalize;
 }
 
 #services .container .service-boxes .service-box .btn-container {
