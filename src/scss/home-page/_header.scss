@@ -12,15 +12,21 @@
         grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
     }
 
-    .logo-container{
-        color: $color-dark;
         .logo{
+            a{
+                color: $color-dark;
+                transition: 0.3s color ease-in-out;
+
+                &:hover{
+                    color: $color-primary;
+                }
+            }
 
             @include rwd(800){
                 grid-column: 2 / span 1;
             }
         }
-    }
+
 
 
     .nav-toggle{
