@@ -1,5 +1,6 @@
-//$color-lighter: #f4f4f4;
-//$color-light: #ccc;
+$color-lighter: #f4f4f4;
+$color-light: #828282;
+$color-light-select: #9A9A9A;
 $bg-darker: #F1F5F7;
 
 $color-white: #ffffff;
@@ -9,6 +10,8 @@ $color-primary-light: #8DC3F2;
 $color-secondary: #35DFF2;
 $color-links: #1649F2;
 $color-btn: #53D94E;
+
+$icon-shadow: 0 10px 13px -7px $color-primary, 5px 5px 15px 5px rgba(0,0,0,0);
 
 
 $font-heading: 'Poppins', sans-serif;

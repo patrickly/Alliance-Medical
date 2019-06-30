@@ -1,0 +1,45 @@
+.social-container{
+    background: $color-lighter;
+
+    .social{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 60px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @include rwd(700){
+            padding: 60px 50px;
+        }
+
+        &-icon{
+            width: 40px;
+            height: 40px;
+            background: $color-white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: box-shadow 0.25s ease-in-out;
+
+            &:hover{
+                box-shadow: $icon-shadow;
+            }
+
+            @include rwd(700){
+                width: 60px;
+                height: 60px;
+            }
+
+            i{
+                font-size: 1.5rem;
+                color: $color-primary;
+
+                @include rwd(700){
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+}

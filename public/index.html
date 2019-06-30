@@ -20,7 +20,11 @@
         <!-- header -->
         <header class="header">
             <!-- logo -->
-            <h1 class="logo">Alliance <br>Medical</h1>
+            <h1 class="logo">
+                <a href="index.html">
+                    Alliance <br>Medical
+                </a>
+            </h1>
             <!-- /.logo -->
 
             <!-- nav toggle -->
@@ -57,26 +61,28 @@
         </section>  <!-- /.hero -->
 
         <!-- mission -->
-        <section class="mission">
-            <div class="content">
-                <div class="icon">
-                    <i class="fas fa-user-md"></i>
-                </div>  <!-- /.icon -->
-                <div class="title">
-                    <p>
-                        Our Mission is to provide a Professional Approach to
-                        Health Care
-                    </p>
-                </div>  <!-- /.title -->
-                <div class="desc">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cupiditate dolor eos ipsa magni, minima nam possimus praesentium provident quos reprehenderit, rerum vero! Ab accusantium alias asperiores aspernatur consequatur culpa dolore doloribus ea, enim ex excepturi explicabo fugiat fugit inventore ipsa laudantium libero minus molestias, mollitia necessitatibus nostrum nulla odit omnis possimus quia quo quos reiciendis reprehenderit rerum sequi sint ullam vitae voluptatibus. </p>
-                </div>  <!-- /.desc -->
-                <a href="#" class="btn">Meet Our Doctors</a>
-            </div>  <!-- /.content -->
+        <section class="mission-container">
+            <div class="mission">
+                <div class="content">
+                    <div class="icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>  <!-- /.icon -->
+                    <div class="title">
+                        <p>
+                            Our Mission is to provide a Professional Approach to
+                            Health Care
+                        </p>
+                    </div>  <!-- /.title -->
+                    <div class="desc">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cupiditate dolor eos ipsa magni, minima nam possimus praesentium provident quos reprehenderit, rerum vero! Ab accusantium alias asperiores aspernatur consequatur culpa dolore doloribus ea, enim ex excepturi explicabo fugiat fugit inventore ipsa laudantium libero minus molestias, mollitia necessitatibus nostrum nulla odit omnis possimus quia quo quos reiciendis reprehenderit rerum sequi sint ullam vitae voluptatibus. </p>
+                    </div>  <!-- /.desc -->
+                    <a href="#" class="btn">Meet Our Doctors</a>
+                </div>  <!-- /.content -->
 
-            <div class="img"></div>
+                <div class="img"></div>
 
-        </section>  <!-- /.mission -->
+            </div>  <!-- /.mission -->
+        </section>  <!-- /.mission-container -->
 
 
         <!-- services -->
@@ -201,9 +207,7 @@
                     <option value="">Dr. Three - Pediatrics</option>
                     <option value="">No Preference</option>
                 </select>
-                <textarea name="" class="inputs" id="" cols="30" rows="5">
-                    Reason for visiting
-                </textarea>
+                <textarea name="" class="inputs"  cols="30" rows="5" placeholder="Reason for visiting"></textarea>
 
                 <button type="submit" class="btn">
                     Submit Appointment Request
@@ -213,7 +217,37 @@
         <!-- /.contact -->
 
 
-
+        <!-- social -->
+        <section class="social-container">
+            <div class="social">
+                <div class="social-icon">
+                    <a href="https://facebook.com" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </div>  <!-- /.social-icon -->
+                <div class="social-icon">
+                    <a href="https://www.twitter.com" target="_blank">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </div>  <!-- /.social-icon -->
+                <div class="social-icon">
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>  <!-- /.social-icon -->
+                <div class="social-icon">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>  <!-- /.social-icon -->
+                <div class="social-icon">
+                    <a href="https://www.youtube.com" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>  <!-- /.social-icon -->
+            </div>
+            <!-- /.social -->
+        </section>  <!-- /.social-container -->
 
 
         <!-- footer -->
@@ -255,9 +289,11 @@
                 </a>
             </div>
             <div class="footer-copy">
-                <p>&copy; 2019 Alliance Medical</p>
-                <p> Powered by Real Developers</p>
-            </div>
+                <div class="footer-copy-container">
+                    <p>&copy; 2019 Alliance Medical</p>
+                    <p> Powered by Real Developers</p>
+                </div>  <!-- /.footer-copy-container -->
+            </div>  <!-- /.footer-copy -->
         </footer>  <!-- /.footer -->
 
    </body>
