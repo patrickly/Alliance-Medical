@@ -17,29 +17,39 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <style>
-    #locations {
+#locations {
     max-width: 1000px;
     margin: 0 auto;
     padding: 150px 20px 30px 20px;
     background: red;
 }
 
-#locations .location-container {
-    max-width: 95%;
-    margin: 0 auto;
-    background: blue;
-}
-
-#locations .location-container h2 {
-    color: pink;
+#locations h2 {
+    color: green;
     font-size: 34px;
 }
 
+#locations .location-container {
+    max-width: 95%;
+    min-height: 300px;
+    margin: 0 auto;
+    background: blue;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
 
 #locations .location-container .info-container {
-    max-width: 50%;
-    margin: 0 auto;
+    /* min-width: 40%; */
     background: green;
+}
+
+#locations .location-container .map-container {
+    min-width: 60%;
+    margin-left: 100px;
+    padding: 10px;
+    background: yellow;
 }
 
 </style>
@@ -76,8 +86,8 @@
         </nav> <!-- /nav-->
     </header> <!-- /.header -->
     <section id="locations">
+            <h2>Locations</h2><br />
         <div class="location-container">
-                <h2>Locations</h2><br />
             <div class="info-container">
                 <h3>Middlebury</h3>
                 <ul class="contact-info">
@@ -87,7 +97,7 @@
                     <li>Fax:(203)575-2303</li>
                 </ul>
             </div>
-            <div class="map_container">
+            <div class="map-container">
                 <iframe
                     src="https://maps.google.com/maps?q=1625+Straits+Turnpike+Middlebury%2C+CT+06762&iwloc=near&output=embed"
                     frameborder="0"></iframe>
