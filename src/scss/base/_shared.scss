@@ -4,11 +4,12 @@
     color: $color-white;
     font-weight: bold;
     border-radius: 8px;
-    transition: 0.3s background-color ease-in-out;
+    transition: 0.25s all ease-in-out;
 
     &:hover{
         background: darken($color-btn, 10%);
         color: $color-white;
+        box-shadow: 0 10px 13px -7px $color-dark, 5px 5px 15px 5px rgba(0,0,0,0);
     }
 }
 

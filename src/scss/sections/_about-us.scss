@@ -1,4 +1,5 @@
-.container{
+
+#aboutUs .container{
   background: #ffffff;
   margin: 0 auto;
   padding: 20px;
@@ -7,7 +8,7 @@
   grid-template-columns: 1fr 2fr;
 }
 
-.container{
+#aboutUs .container{
   .left-menu{
     justify-content: flex-start;
     padding-left: 20px;
