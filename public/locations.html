@@ -18,43 +18,55 @@
 </head>
 <style>
 #locations {
-    max-width: 1100px;
+    max-width: 95%;
     margin: 0 auto;
     padding: 150px 20px 30px 20px;
     background: red;
+    text-align: center;
 }
 
 #locations h2 {
-    color: green;
     font-size: 34px;
 }
 
 #locations .location-container {
-    max-width: 95%;
+    max-width: 100%;
     min-height: 300px;
     margin: 0 auto;
     background: blue;
     display: flex;
     justify-content: flex-start;
+    /* align-items: center; */
 }
 
 
 
 #locations .location-container .info-container {
-    /* min-width: 40%; */
+    min-width: 40%;
     background: green;
+    /* text-align: left; */
+
 }
 
+#locations .location-container .info-container .contact-info {
+    
+    background: pink;
+    margin-bottom: 10px;
+    /* text-align: left; */
+
+}
+
+
 #locations .location-container .map-container {
-    /* min-width: 60%; */
-    margin-left: 50px;
-    padding: 10px;
+    min-width: 50%;
+    margin-left: 25px;
+    padding: 5px;
     background: yellow;
 }
 
 #locations .location-container .map-container iframe{
 width: 700px;
-height: 250px;
+height: 275px;
 }
 
 </style>
@@ -86,7 +98,6 @@ height: 250px;
                 <li><a href="locations.html">Locations</a></li>
                 <li><a href="about-us.html">About</a></li>
                 <!--<li><a href="#">Payments</a></li>-->
-                <li><a href="#">Appointments</a></li>
             </ul>
         </nav> <!-- /nav-->
     </header> <!-- /.header -->
@@ -100,6 +111,15 @@ height: 250px;
                     <li>Middlebury CT 06762</li>
                     <li>Phone:(203)573-9512</li>
                     <li>Fax:(203)575-2303</li>
+                </ul>
+                <h3>Office hours:</h3>
+                <p>Mon, Thurs, Fri. 8:30 a.m. - 5:00 p.m.</p>
+                <p>Tues, Weds 8:30 a.m. - 7:00 p.m.</p>
+                <ul class="dr-names">
+                    <li>John Doe, MD</li>
+                    <li>Jane Doe, MD</li>
+                    <li>Jack Doe, MD</li>
+                    <li>Karen Doe, APRN</li>
                 </ul>
             </div>
             <div class="map-container">
