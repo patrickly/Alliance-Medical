@@ -3,10 +3,12 @@
 @import "base/base";
 @import "base/shared";
 @import "mixins/mixins";
+@import "sections/about-us";
 @import "home-page/header";
 @import "home-page/hero";
 @import "home-page/mission";
 @import "home-page/services";
 @import "home-page/contact";
+@import "home-page/social";
 @import "home-page/footer";
-@import "src/scss/home-page/locations/_locations.scss";
+

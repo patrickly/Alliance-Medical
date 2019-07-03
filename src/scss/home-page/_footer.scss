@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-top: 5px solid $color-primary-light;
+    border-top: 10px solid $color-primary-light;
 
     &-mission{
         padding: 60px 0 10px 0;
@@ -20,11 +20,13 @@
 
         h2{
             margin: 10px 0;
+            text-align: center;
         }
 
         p{
             text-transform: uppercase;
             color: $color-primary-light;
+            text-align: center;
         }
     }
 
@@ -77,13 +79,27 @@
     }
 
     &-copy{
-        padding: 20px 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background: $color-links;
-        text-align: center;
         width: 100%;
+        background: $color-links;
+
+        &-container{
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: $color-links;
+            text-align: center;
+            width: 100%;
+            margin: 0 auto;
+
+            @include rwd(800){
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+                max-width: 1100px;
+            }
+        }
     }
 }
