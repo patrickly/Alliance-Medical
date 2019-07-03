@@ -117,3 +117,24 @@
  color: #fff;
  padding: 16px 28px;
 }
+
+/* laptops */
+@media only screen and (max-width: 1215px) {
+
+}
+
+/* tablets */
+@media only screen and (max-width: 1023px) {
+ #services .container .service-boxes .service-box {
+  width: 48%;
+  margin: 1%;
+ }
+}
+
+/* phones */
+@media only screen and (max-width: 767px) {
+ #services .container .service-boxes .service-box {
+  width: 100%;
+  margin: 2% 0;
+ }
+}
