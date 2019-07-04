@@ -1,11 +1,11 @@
 
 
-#about-us{
+#aboutUs{
 
 }
 
 
-#about-us .container {
+#aboutUs .container {
   background: #ffffff;
   margin: 0 auto;
   padding: 20px;
@@ -14,12 +14,12 @@
   grid-template-columns: 1fr 2fr;
 }
 /* Menu left side of the page */
-#about-us .container .left-menu {
+#aboutUs .container .left-menu {
     justify-content: start;
     padding-left: 20px;
   }
 
-#about-us .container .left-menu span{
+#aboutUs .container .left-menu span{
   color: #2E97F2;
   font-family: "Poppins",sans-serif;
   font-size: 1.5rem;
@@ -27,60 +27,60 @@
   margin-left: 22px;
 }
 
-#about-us .container .left-menu .menu-links{
+#aboutUs .container .left-menu .menu-links{
 
 }
-#about-us .container .left-menu .menu-links ul{
+#aboutUs .container .left-menu .menu-links ul{
 
 }
-#about-us .container .left-menu .menu-links a{
+#aboutUs .container .left-menu .menu-links a{
   color: #939393;
   text-decoration: none;
   list-style: none;
 }
-#about-us .container .left-menu .menu-links a:hover{
+#aboutUs .container .left-menu .menu-links a:hover{
   color: #2E97F2;
 }
-#about-us .container .left-menu .menu-links li{
+#aboutUs .container .left-menu .menu-links li{
   margin-bottom: 5px;
 }
 /* Main Content Area */
 
-#about-us .container .content-area{
+#aboutUs .container .content-area{
 
 }
-#about-us .container .content-area h1{
+#aboutUs .container .content-area h1{
   font-family: "Poppins",sans-serif;
   font-size: 2rem;
   color: #2E97F2;
   margin: 0;
   padding: 0 0 10px;
 }
-#about-us .container .content-area .image{
+#aboutUs .container .content-area .image{
 
 }
-#about-us .container .content-area .image p{
+#aboutUs .container .content-area .image p{
     margin-bottom: 10px;
     max-width: 612px;
     width: 100%;
 }
-#about-us .container .content-area .image .specialties{
+#aboutUs .container .content-area .image .specialties{
 
 }
-#about-us .container .content-area .image .specialties ul{
+#aboutUs .container .content-area .image .specialties ul{
   padding-left: 35px;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-#about-us .container .content-area .image .specialties a{
+#aboutUs .container .content-area .image .specialties a{
   color: #939393;
   text-decoration: none !important;
 }
-#about-us .container .content-area .image .specialties a:hover{
+#aboutUs .container .content-area .image .specialties a:hover{
   color: #2E97F2;
 }
-#about-us .container .content-area .image .specialties li{
+#aboutUs .container .content-area .image .specialties li{
   list-style: none;
   margin-bottom: 5px;
 }
