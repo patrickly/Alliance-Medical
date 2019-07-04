@@ -8,15 +8,22 @@
 #aboutUs .container {
   background: #ffffff;
   margin: 0 auto;
-  padding: 20px;
   max-width: 1000px;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  padding: 150px 20px 30px 20px;
+  /* display: grid;
+  grid-template-columns: 1fr 2fr; */
 }
 /* Menu left side of the page */
+#aboutUs .container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 #aboutUs .container .left-menu {
-    justify-content: start;
-    padding-left: 20px;
+  width: 30%;
+  display: inline-block;
+  float: left;
   }
 
 #aboutUs .container .left-menu span{
@@ -47,7 +54,9 @@
 /* Main Content Area */
 
 #aboutUs .container .content-area{
-
+  width: 70%;
+  display: inline-block;
+  float: left;
 }
 #aboutUs .container .content-area h1{
   font-family: "Poppins",sans-serif;
@@ -63,8 +72,9 @@
     margin-bottom: 10px;
     max-width: 612px;
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 14px;
     font-family: "Poppins",sans-serif;
+    line-height: 1.45;
 }
 #aboutUs .container .content-area .specialties{
 
@@ -77,6 +87,7 @@
 }
 #aboutUs .container .content-area .specialties a{
   color: #939393;
+  font-size: 14px;
   list-style: none;
   text-decoration: none;
 }
@@ -89,6 +100,7 @@
 }
 #aboutUs .container .content-area .locations a{
   color: #939393;
+  font-size: 14px;
   list-style: none;
   text-decoration: none;
 }
