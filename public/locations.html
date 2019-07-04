@@ -20,7 +20,7 @@
 #locations {
     max-width: 95%;
     margin: 0 auto;
-    padding: 150px 20px 30px 20px;
+    padding: 150px 20px 0px 20px;
     /* background: red; */
     text-align: center;
 }
@@ -73,6 +73,7 @@
     min-width: 50%;
     margin-left: 31px;
     padding: 5px;
+    margin-bottom: 15px;
     /* background: red; */
 }
 
@@ -83,10 +84,20 @@ height: 295px;
 
  
 /* tablets */ 
-@media only screen and (max-width: 1023px) { 
-    #locations .location-container .info-container {
+@media only screen and (max-width: 1024px) { 
 
- } 
+    #locations .location-container .map-container {
+    margin-top: 20px;
+    min-width: 61%;
+    margin-left: 31px;
+    padding: 5px 0.5px;
+    /* background: purple; */
+}
+
+    #locations .location-container .map-container iframe{
+        width: 100%;
+    }
+
 } 
  
 /* phones */ 
