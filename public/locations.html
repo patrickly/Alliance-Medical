@@ -35,7 +35,7 @@
     max-width: 90%;
     min-height: 340px;
     margin: 0 auto;
-    /* background: red; */
+    background: blue;
     display: flex;
     justify-content: flex-start;
     /* align-items: center; */
@@ -49,7 +49,6 @@
 #locations .location-container .info-container {
     margin-top: 20px;
     min-width: 35%;
-    /* background: green; */
     text-align: left;
 
 }
@@ -80,6 +79,42 @@
 #locations .location-container .map-container iframe{
 width: 700px;
 height: 295px;
+}
+
+ 
+/* tablets */ 
+@media only screen and (max-width: 1023px) { 
+    #locations .location-container .info-container {
+
+ } 
+} 
+ 
+/* phones */ 
+@media only screen and (max-width: 767px) { 
+
+    #locations {
+        background: yellow;
+        padding: 150px 1px 30px 1px;
+        max-width: 100%;
+    }
+
+    #locations .location-container {
+        display: block;
+        width: 100%;
+        background: pink;
+    }
+
+    #locations .location-container .info-container {
+  /* margin: 1%;  */
+  background: green;
+
+ } 
+
+
+#locations .location-container .map-container {
+    margin-top: 20px;
+    background: red;
+}
 }
 
 </style>
