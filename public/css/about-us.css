@@ -59,28 +59,31 @@
 #aboutUs .container .content-area .image{
 
 }
-#aboutUs .container .content-area .image p{
+#aboutUs .container .content-area p{
     margin-bottom: 10px;
     max-width: 612px;
     width: 100%;
+    font-size: 1.1rem;
+    font-family: "Poppins",sans-serif;
 }
-#aboutUs .container .content-area .image .specialties{
+#aboutUs .container .content-area .specialties{
 
 }
-#aboutUs .container .content-area .image .specialties ul{
+#aboutUs .container .content-area .specialties ul{
   padding-left: 35px;
-  list-style-type: none;
+  /* list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0; */
 }
-#aboutUs .container .content-area .image .specialties a{
+#aboutUs .container .content-area .specialties a{
   color: #939393;
-  text-decoration: none !important;
+  list-style: none;
+  text-decoration: none;
 }
-#aboutUs .container .content-area .image .specialties a:hover{
+#aboutUs .container .content-area .specialties a:hover{
   color: #2E97F2;
 }
-#aboutUs .container .content-area .image .specialties li{
-  list-style: none;
+#aboutUs .container .content-area .specialties li{
   margin-bottom: 5px;
+  font-family: "Poppins",sans-serif;
 }
