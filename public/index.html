@@ -46,7 +46,7 @@
                     <li><a href="locations.html">Locations</a></li>
                     <li><a href="about-us.html">About</a></li>
                     <!--<li><a href="#">Payments</a></li>-->
-                    <li><a href="#">Appointments</a></li>
+                    <!--<li><a href="#contact">Appointments</a></li>-->
                 </ul>
             </nav>  <!-- /nav-->
 
@@ -55,9 +55,10 @@
         <!-- hero -->
         <section class="hero">
             <i class="fas fa-hospital"></i>
-            <h1>We are Committed toYour Health</h1>
+            <h1>We Are Committed To Your Health</h1>
             <p>Our doctors are on call 24/7</p>
-            <a href="#" class="btn">Book an appointment</a>
+            <a href="#contact" class="btn" data-scroll
+               data-easing="easeInOutCubic">Book an appointment</a>
         </section>  <!-- /.hero -->
 
         <!-- mission -->
@@ -69,14 +70,13 @@
                     </div>  <!-- /.icon -->
                     <div class="title">
                         <p>
-                            Our Mission is to provide a Professional Approach to
-                            Health Care
+                            Our Mission is to provide Professional Health Care
                         </p>
                     </div>  <!-- /.title -->
                     <div class="desc">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cupiditate dolor eos ipsa magni, minima nam possimus praesentium provident quos reprehenderit, rerum vero! Ab accusantium alias asperiores aspernatur consequatur culpa dolore doloribus ea, enim ex excepturi explicabo fugiat fugit inventore ipsa laudantium libero minus molestias, mollitia necessitatibus nostrum nulla odit omnis possimus quia quo quos reiciendis reprehenderit rerum sequi sint ullam vitae voluptatibus. </p>
                     </div>  <!-- /.desc -->
-                    <a href="#" class="btn">Meet Our Doctors</a>
+                    <a href="physicians.html" class="btn">Meet Our Doctors</a>
                 </div>  <!-- /.content -->
 
                 <div class="img"></div>
@@ -172,14 +172,14 @@
                     <p>Your needs are always met</p>
                 </div>
                 <div class="services-btn">
-                    <a href="#" class="btn">Our Services</a>
+                    <a href="services.html" class="btn">Our Services</a>
                 </div>
             </div>
         </section>  <!-- /.services -->
 
 
         <!-- contact -->
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="icon">
                 <i class="fas fa-hospital"></i>
             </div>
@@ -257,7 +257,7 @@
                 <h2>Better Health Care is Our Passion</h2>
                 <p> 24/7 service. same day appointments available</p>
             </div>
-            <div class="footer-contact">
+            <div class="footer-contact" id="footer-contact">
                 <div class="footer-contact-container">
                     <div class="icon">
                         <i class="fas fa-phone"></i>
@@ -284,9 +284,7 @@
                 </div>
             </div>
             <div class="footer-cta">
-                <a href="#" class="btn btn-reverse">
-                    Book an Appointment Today
-                </a>
+                <a href="#contact" data-scroll data-easing="easeInOutCubic" class="btn btn-reverse">Book an Appointment Today</a>
             </div>
             <div class="footer-copy">
                 <div class="footer-copy-container">
@@ -296,5 +294,14 @@
             </div>  <!-- /.footer-copy -->
         </footer>  <!-- /.footer -->
 
+
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]', {
+                speed: 500,
+                speedAsDuration: true
+            });
+            var easeInOutCubic = new SmoothScroll('[data-easing="easeInOutCubic"]', {easing: 'easeInOutCubic'});
+        </script>
    </body>
 </html>
