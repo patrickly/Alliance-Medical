@@ -87,3 +87,15 @@
   margin-bottom: 5px;
   font-family: "Poppins",sans-serif;
 }
+#aboutUs .container .content-area .locations a{
+  color: #939393;
+  list-style: none;
+  text-decoration: none;
+}
+#aboutUs .container .content-area .locations a:hover{
+  color: #2E97F2;
+}
+#aboutUs .container .content-area .locations li{
+  margin-bottom: 5px;
+  font-family: "Poppins",sans-serif;
+}
