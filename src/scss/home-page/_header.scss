@@ -69,14 +69,14 @@
         text-align: left;
         top: 100%;
         left: 0;
-        background: red;
+        background: $color-white;
         width: 100%;
-        // transform: scale(1, 0);
+        transform: scale(1, 0);
         transform-origin: top;
         transition: transform 400ms ease-in-out;
 
         @include rwd(800){
-            // all: unset;
+            all: initial;
             grid-column: 3 / 4;
             display: flex;
             justify-content: flex-end;
