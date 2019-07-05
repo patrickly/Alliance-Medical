@@ -1,4 +1,6 @@
-
+*{
+  box-sizing: border-box;
+}
 
 #aboutUs{
 
@@ -10,8 +12,6 @@
   margin: 0 auto;
   max-width: 1000px;
   padding: 150px 20px 30px 20px;
-  /* display: grid;
-  grid-template-columns: 1fr 2fr; */
 }
 /* Menu left side of the page */
 #aboutUs .container::after {
@@ -113,15 +113,17 @@
 }
 
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 861px){
   #aboutUs .container .left-menu {
     width: 100%;
     text-align: center;
     }
   #aboutUs .container .content-area{
       width: 100%;
+      text-align: center;
     }
     #aboutUs .container .content-area .image{
-      width: 100%;
+      width: 80%;
+      height: auto;
     }
 }
