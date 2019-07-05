@@ -2,20 +2,203 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport"
-              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="author" content="KHDevTT">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
+
         <!-- Title -->
         <title>Alliance Medical | Health Care</title>
         <!-- fontawesome -->
         <link rel="stylesheet" href="vendor/fontawesome/css/all.css">
 
         <!-- custom styles -->
-        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="css/style.css"> -->
     </head>
+
+<style>
+         
+ /* .header .nav ul li a {		
+   background: violet;	
+}		
+     
+.header .nav ul .yo {		
+   background: green;	
+   padding: 10px;
+}	
+
+.header .nav ul .yo .ser{		
+   color: white;
+   padding: 100px;
+}	 */
+
+
+
+
+
+.header {
+	background: green;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	padding: 15px 0;
+	-webkit-box-shadow: 0 10px 13px -7px #333, 0px 5px 15px -5px rgba(0, 0, 0, 0);
+	box-shadow: 0 10px 13px -7px #333, 0px 5px 15px -5px rgba(0, 0, 0, 0)
+}
+
+@media (min-width: 800px) {
+	.header {
+		display: grid;
+		grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr
+	}
+}
+
+.header .logo a {
+	color: pink;
+	-webkit-transition: 0.3s color ease-in-out;
+	transition: 0.3s color ease-in-out
+}
+
+.header .logo a:hover {
+	color: #2E97F2
+}
+
+
+
+.header .nav {
+	position: absolute;
+	text-align: left;
+	top: 100%;
+	left: 0;
+	background: #fff;
+	width: 100%;
+	-webkit-transform: scale(1, 0);
+	transform: scale(1, 0);
+	-webkit-transform-origin: top;
+	transform-origin: top;
+	-webkit-transition: -webkit-transform 400ms ease-in-out;
+	transition: -webkit-transform 400ms ease-in-out;
+	transition: transform 400ms ease-in-out;
+	transition: transform 400ms ease-in-out, -webkit-transform 400ms ease-in-out
+}
+
+@media (min-width: 800px) {
+	.header .nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center
+	}
+}
+
+.header .nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+@media (min-width: 800px) {
+	.header .nav ul {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end
+	}
+}
+
+.header .nav ul li {
+	margin-bottom: 1em;
+    margin-left: 1em;
+    background: white;
+}
+
+@media (min-width: 800px) {
+	.header .nav ul li {
+		margin-left: 2em;
+		margin-bottom: 0
+	}
+}
+
+.header .nav ul li a {
+	color: red;
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	opacity: 0;
+	-webkit-transition: opacity 140ms ease-in-out;
+	transition: opacity 140ms ease-in-out
+}
+
+@media (min-width: 800px) {
+	.header .nav ul li a {
+		opacity: 1;
+		position: relative
+	}
+}
+
+.header .nav ul li a:hover {
+	color: #1649F2
+}
+
+@media (min-width: 800px) {
+	.header .nav ul li a:hover::before {
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1)
+	}
+}
+
+@media (min-width: 800px) {
+	.header .nav ul li a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background: brown;
+		position: absolute;
+		bottom: -0.75em;
+		left: 0;
+		right: 0;
+		-webkit-transform: scale(0, 1);
+		transform: scale(0, 1);
+		-webkit-transform-origin: right;
+		transform-origin: right;
+		-webkit-transition: -webkit-transform ease-in-out 250ms;
+		transition: -webkit-transform ease-in-out 250ms;
+		transition: transform ease-in-out 250ms;
+		transition: transform ease-in-out 250ms, -webkit-transform ease-in-out 250ms
+	}
+}
+
+
+
+
+
+
+
+
+  .header .nav ul li a {		
+   background: violet;	
+}		
+     
+.header .nav ul .yo {		
+   background: green;	
+   padding: 10px;
+}	
+
+.header .nav ul .yo .ser{		
+   color: white;
+   font-size: 20px;
+   padding: 20px;
+}	  
+
+</style>
+
     <body>
         <!-- header -->
         <header class="header">
@@ -40,7 +223,7 @@
             <nav class="nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
+                    <li class="yo"><a class="ser"  href="services.html">Services</a></li>
                     <li><a href="physicians.html">Physicians</a></li>
                     <!--<li><a href="#">For Patients</a></li>-->
                     <li><a href="locations.html">Locations</a></li>
