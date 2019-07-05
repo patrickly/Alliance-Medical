@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>About Us</title>
-    <link rel="stylesheet" href="/css/style.css">
-  </head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="KHDevTT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- Title -->
+    <title>Alliance Medical | Health Care</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.css">
+    <!-- custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
   <body>
+    <!-- header -->
     <header class="header">
-        <!-- logo -->
-        <h1 class="logo">Alliance <br>Medical</h1>
-        <!-- /.logo -->
+      <!-- logo -->
+      <h1 class="logo">
+          <a href="index.html">
+              Alliance <br>Medical
+          </a>
+      </h1>
+      <!-- /.logo -->
 
-        <!-- nav toggle -->
-        <input type="checkbox" class="nav-toggle" id="nav-toggle">  <!-- /
-        .nav toggle -->
+      <!-- nav toggle -->
+      <input type="checkbox" class="nav-toggle" id="nav-toggle">
+      <!-- /
+          .nav toggle -->
 
-        <!--nav toggler-->
-        <label for="nav-toggle" class="nav-toggle-label">
-            <i class="fas fa-bars"></i>
-        </label>  <!-- /nav toggler-->
+      <!--nav toggler-->
+      <label for="nav-toggle" class="nav-toggle-label">
+          <i class="fas fa-bars"></i>
+      </label> <!-- /nav toggler-->
 
-        <!-- nav-->
-        <nav class="nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Physicians</a></li>
-                <!--<li><a href="#">For Patients</a></li>-->
-                <li><a href="about-us.html">About</a></li>
-                <!--<li><a href="#">Payments</a></li>-->
-                <li><a href="#"> Appointments</a></li>
-            </ul>
-        </nav>  <!-- /nav-->
-    </header>   <!-- /.header -->
+      <!-- nav-->
+      <nav class="nav">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="physicians.html">Physicians</a></li>
+              <!--<li><a href="#">For Patients</a></li>-->
+              <li><a href="locations.html">Locations</a></li>
+              <li><a href="about-us.html">About</a></li>
+              <!--<li><a href="#">Payments</a></li>-->
+              <!--<li><a href="#contact">Appointments</a></li>-->
+          </ul>
+      </nav> <!-- /nav-->
+
+  </header> <!-- /.header -->
 
     <div id="aboutUs">
       <div class="container">
@@ -77,6 +95,76 @@
           </div>
       </div>
     </div>
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <div class="icon">
+            <i class="fas fa-hospital"></i>
+        </div>
+        <div class="title">
+            <p>Your Health Matters</p>
+        </div>
+        <div class="subtitle">
+            <p>
+                Appointments and urgent care <br>
+                <span>or call 234 567 89 00</span>
+            </p>
+        </div>
+        <!-- contact form -->
+        <form action="#" class="contact-form">
+            <input type="text" class="inputs" name="" id="" placeholder="Your Full Name">
+            <input type="text" class="inputs" name="" id="" placeholder="Phone Number">
+            <input type="email" class="inputs" name="" id="" placeholder="Email Address">
+            <select name="" class="inputs" id="">
+                <option value="">Choose a Doctor</option>
+                <option value="">Dr. One - General</option>
+                <option value="">Dr. Two - Cardiology</option>
+                <option value="">Dr. Three - Pediatrics</option>
+                <option value="">No Preference</option>
+            </select>
+            <textarea name="" class="inputs" cols="30" rows="5" placeholder="Reason for visiting"></textarea>
+
+            <button type="submit" class="btn">
+                Submit Appointment Request
+            </button>
+        </form> <!-- /.contact-form -->
+    </section>
+    <!-- /.contact -->
+
+
+    <!-- social -->
+    <section class="social-container">
+        <div class="social">
+            <div class="social-icon">
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+            </div> <!-- /.social-icon -->
+            <div class="social-icon">
+                <a href="https://www.twitter.com" target="_blank">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+            </div> <!-- /.social-icon -->
+            <div class="social-icon">
+                <a href="https://www.linkedin.com" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div> <!-- /.social-icon -->
+            <div class="social-icon">
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div> <!-- /.social-icon -->
+            <div class="social-icon">
+                <a href="https://www.youtube.com" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div> <!-- /.social-icon -->
+        </div>
+        <!-- /.social -->
+    </section> <!-- /.social-container -->
+
+
+
     <!-- footer -->
     <footer class="footer">
         <div class="footer-mission">
@@ -84,7 +172,7 @@
             <h2>Better Health Care is Our Passion</h2>
             <p> 24/7 service. same day appointments available</p>
         </div>
-        <div class="footer-contact">
+        <div class="footer-contact" id="footer-contact">
             <div class="footer-contact-container">
                 <div class="icon">
                     <i class="fas fa-phone"></i>
@@ -111,14 +199,25 @@
             </div>
         </div>
         <div class="footer-cta">
-            <a href="#" class="btn btn-reverse">
-                Book an Appointment Today
-            </a>
+            <a href="#contact" data-scroll data-easing="easeInOutCubic" class="btn btn-reverse">Book an Appointment
+                Today</a>
         </div>
         <div class="footer-copy">
-            <p>&copy; 2019 Alliance Medical</p>
-            <p> Powered by Real Developers</p>
-        </div>
-    </footer>
+            <div class="footer-copy-container">
+                <p>&copy; 2019 Alliance Medical</p>
+                <p> Powered by Real Developers</p>
+            </div> <!-- /.footer-copy-container -->
+        </div> <!-- /.footer-copy -->
+    </footer> <!-- /.footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 500,
+            speedAsDuration: true
+        });
+        var easeInOutCubic = new SmoothScroll('[data-easing="easeInOutCubic"]', { easing: 'easeInOutCubic' });
+    </script>
   </body>
 </html>
