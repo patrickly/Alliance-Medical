@@ -111,3 +111,17 @@
   margin-bottom: 5px;
   font-family: "Poppins",sans-serif;
 }
+
+
+@media only screen and (max-width: 767px){
+  #aboutUs .container .left-menu {
+    width: 100%;
+    text-align: center;
+    }
+  #aboutUs .container .content-area{
+      width: 100%;
+    }
+    #aboutUs .container .content-area .image{
+      width: 100%;
+    }
+}
