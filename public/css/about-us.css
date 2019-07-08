@@ -118,12 +118,41 @@
     width: 100%;
     text-align: center;
     }
+  #aboutUs .container .left-menu span{
+    margin-left: 0;
+  }
+#aboutUs .container .left-menu .menu-links ul {
+  padding-left: 0;
+}
   #aboutUs .container .content-area{
       width: 100%;
       text-align: center;
     }
     #aboutUs .container .content-area .image{
-      width: 80%;
+      width: 100%;
       height: auto;
+    }
+    #aboutUs .container .content-area .info {
+
+    }
+    #aboutUs .container .content-area .info p{
+      text-align: center;
+      margin: 0 auto;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    #aboutUs .container .content-area .specialties p{
+      text-align: center;
+      margin: 0 auto;
+    }
+    #aboutUs .container .content-area .specialties ul{
+      padding-left: 0;
+    }
+    #aboutUs .container .content-area .locations p{
+      text-align: center;
+      margin: 0 auto;
+    }
+    #aboutUs .container .content-area .locations ul{
+      padding-left: 0;
     }
 }
