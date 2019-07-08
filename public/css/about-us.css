@@ -156,3 +156,14 @@
       padding-left: 0;
     }
 }
+/* Small screen devices */
+@media only screen and (min-width: 500px){
+  #aboutUs .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #aboutUs .container .content-area .image img{
+    width: 500px;
+    height: auto;
+  }
+}
