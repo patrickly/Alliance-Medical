@@ -112,7 +112,6 @@
   font-family: "Poppins",sans-serif;
 }
 
-
 @media only screen and (max-width: 861px){
   #aboutUs .container .left-menu {
     width: 100%;
@@ -121,20 +120,18 @@
   #aboutUs .container .left-menu span{
     margin-left: 0;
   }
-#aboutUs .container .left-menu .menu-links ul {
-  padding-left: 0;
-}
+  #aboutUs .container .left-menu .menu-links ul {
+    padding-left: 0;
+  }
   #aboutUs .container .content-area{
-      width: 100%;
-      text-align: center;
+    width: 100%;
+    text-align: center;
     }
-    #aboutUs .container .content-area .image{
-      width: 100%;
-      height: auto;
+  #aboutUs .container .content-area .image{
+    width: 100%;
+    height: auto;
     }
-    #aboutUs .container .content-area .info {
 
-    }
     #aboutUs .container .content-area .info p{
       text-align: center;
       margin: 0 auto;
