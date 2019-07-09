@@ -110,7 +110,7 @@
                     text-transform: uppercase;
                     opacity: 0;
                     transition: opacity 140ms ease-in-out ;
-
+                    font-family: "Roboto", sans-serif;
                     @include rwd(800){
                         opacity: 1;
                         position: relative;
