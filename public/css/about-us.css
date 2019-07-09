@@ -131,6 +131,10 @@
     width: 100%;
     height: auto;
     }
+    #aboutUs .container .content-area .image img{
+    width: 100%;
+    height: auto;
+    }
 
     #aboutUs .container .content-area .info p{
       text-align: center;
