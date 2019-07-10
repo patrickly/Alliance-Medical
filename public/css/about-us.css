@@ -112,7 +112,7 @@
   font-family: "Poppins",sans-serif;
 }
 
-@media only screen and (max-width: 861px){
+@media only screen and (max-width: 861px) and (min-width: 501px) {
   #aboutUs .container .left-menu {
     width: 100%;
     text-align: center;
@@ -133,7 +133,7 @@
     height: auto;
     }
     #aboutUs .container .content-area .image img{
-    width: 100%;
+    width: 95%;
     height: auto;
     }
 
@@ -161,7 +161,7 @@
     }
 }
 /* Small screen devices */
-@media only screen and (min-width: 500px){
+@media only screen and (max-width: 500px){
   #aboutUs .container {
     padding-left: 0;
     padding-right: 0;
