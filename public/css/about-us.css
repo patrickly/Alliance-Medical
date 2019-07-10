@@ -163,7 +163,7 @@
     padding-right: 0;
   }
   #aboutUs .container .content-area .image img{
-    width: 500px;
+    width: 100%;
     height: auto;
   }
 }
