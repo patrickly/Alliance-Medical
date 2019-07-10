@@ -119,6 +119,7 @@
     }
   #aboutUs .container .left-menu span{
     margin-left: 0;
+    margin-bottom: 5px;
   }
   #aboutUs .container .left-menu .menu-links ul {
     padding-left: 0;
@@ -145,6 +146,7 @@
     #aboutUs .container .content-area .specialties p{
       text-align: center;
       margin: 0 auto;
+      padding: 5px 0;
     }
     #aboutUs .container .content-area .specialties ul{
       padding-left: 0;
@@ -152,6 +154,7 @@
     #aboutUs .container .content-area .locations p{
       text-align: center;
       margin: 0 auto;
+      padding: 5px 0;
     }
     #aboutUs .container .content-area .locations ul{
       padding-left: 0;
@@ -164,7 +167,7 @@
     padding-right: 0;
   }
   #aboutUs .container .content-area .image img{
-    width: 500px;
+    width: 100%;
     height: auto;
   }
 }
