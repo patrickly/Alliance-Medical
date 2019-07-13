@@ -64,6 +64,7 @@
     }
 
     .nav{
+
         position: absolute;
         text-align: left;
         top: 100%;
@@ -75,7 +76,7 @@
         transition: transform 400ms ease-in-out;
 
         @include rwd(800){
-            all: unset;
+            all: initial;
             grid-column: 3 / 4;
             display: flex;
             justify-content: flex-end;
@@ -109,7 +110,7 @@
                     text-transform: uppercase;
                     opacity: 0;
                     transition: opacity 140ms ease-in-out ;
-
+                    font-family: "Roboto", sans-serif;
                     @include rwd(800){
                         opacity: 1;
                         position: relative;

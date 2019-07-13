@@ -1,0 +1,173 @@
+*{
+  box-sizing: border-box;
+}
+
+#aboutUs{
+
+}
+
+
+#aboutUs .container {
+  background: #ffffff;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 150px 20px 30px 20px;
+}
+/* Menu left side of the page */
+#aboutUs .container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#aboutUs .container .left-menu {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  }
+
+#aboutUs .container .left-menu span{
+  color: #2E97F2;
+  font-family: "Poppins",sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-left: 22px;
+}
+
+#aboutUs .container .left-menu .menu-links{
+
+}
+#aboutUs .container .left-menu .menu-links ul{
+
+}
+#aboutUs .container .left-menu .menu-links a{
+  color: #939393;
+  text-decoration: none;
+  list-style: none;
+}
+#aboutUs .container .left-menu .menu-links a:hover{
+  color: #2E97F2;
+}
+#aboutUs .container .left-menu .menu-links li{
+  margin-bottom: 5px;
+}
+/* Main Content Area */
+
+#aboutUs .container .content-area{
+  width: 70%;
+  display: inline-block;
+  float: left;
+}
+#aboutUs .container .content-area h1{
+  font-family: "Poppins",sans-serif;
+  font-size: 2rem;
+  color: #2E97F2;
+  margin: 0;
+  padding: 0 0 10px;
+}
+#aboutUs .container .content-area .image{
+
+}
+#aboutUs .container .content-area p{
+    margin-bottom: 10px;
+    max-width: 612px;
+    width: 100%;
+    font-size: 14px;
+    font-family: "Poppins",sans-serif;
+    line-height: 1.45;
+}
+#aboutUs .container .content-area .specialties{
+
+}
+#aboutUs .container .content-area .specialties ul{
+  padding-left: 35px;
+  /* list-style-type: none;
+  margin: 0;
+  padding: 0; */
+}
+#aboutUs .container .content-area .specialties a{
+  color: #939393;
+  font-size: 14px;
+  list-style: none;
+  text-decoration: none;
+}
+#aboutUs .container .content-area .specialties a:hover{
+  color: #2E97F2;
+}
+#aboutUs .container .content-area .specialties li{
+  margin-bottom: 5px;
+  font-family: "Poppins",sans-serif;
+}
+#aboutUs .container .content-area .locations a{
+  color: #939393;
+  font-size: 14px;
+  list-style: none;
+  text-decoration: none;
+}
+#aboutUs .container .content-area .locations a:hover{
+  color: #2E97F2;
+}
+#aboutUs .container .content-area .locations li{
+  margin-bottom: 5px;
+  font-family: "Poppins",sans-serif;
+}
+
+@media only screen and (max-width: 861px){
+  #aboutUs .container .left-menu {
+    width: 100%;
+    text-align: center;
+    }
+  #aboutUs .container .left-menu span{
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  #aboutUs .container .left-menu .menu-links ul {
+    padding-left: 0;
+  }
+  #aboutUs .container .content-area{
+    width: 100%;
+    text-align: center;
+    }
+  #aboutUs .container .content-area .image{
+    width: 100%;
+    height: auto;
+    }
+    #aboutUs .container .content-area .image img{
+    width: 100%;
+    height: auto;
+    }
+
+    #aboutUs .container .content-area .info p{
+      text-align: center;
+      margin: 0 auto;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    #aboutUs .container .content-area .specialties p{
+      text-align: center;
+      margin: 0 auto;
+      padding: 5px 0;
+    }
+    #aboutUs .container .content-area .specialties ul{
+      padding-left: 0;
+    }
+    #aboutUs .container .content-area .locations p{
+      text-align: center;
+      margin: 0 auto;
+      padding: 5px 0;
+    }
+    #aboutUs .container .content-area .locations ul{
+      padding-left: 0;
+    }
+}
+/* Small screen devices */
+@media only screen and (min-width: 500px){
+  #aboutUs .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #aboutUs .container .content-area .image img{
+    width: 100%;
+    height: auto;
+  }
+}
